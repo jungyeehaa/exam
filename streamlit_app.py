@@ -5,16 +5,16 @@ import streamlit as st
 import pandas as pd
 
 # 1. 제목
-st.title("Streamlit 기본 예제 페이지")
+st.title("예하의 인공지능 서비스")
 
 # 2. 부제목
-st.subheader("이 페이지는 다양한 Streamlit 기능을 보여줍니다.")
+st.subheader("인공지능 수행 너무 어려워")
 
 # 3. 판다스 데이터프레임 기반 표 출력
 df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie"],
-    "Age": [24, 30, 29],
-    "Country": ["Korea", "USA", "UK"]
+    "이름": ["우도환", "변우석", "육성재"],
+    "나이": [32, 33, 29],
+    "국적": ["Korea", "Korea", "Korea"]
 })
 st.write("데이터프레임 예제")
 st.dataframe(df)
