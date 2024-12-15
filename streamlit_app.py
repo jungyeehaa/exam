@@ -56,5 +56,5 @@ st.image("https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2024/05/22/bf9
 
 # 7. 유튜브 링크 (썸네일 표시)
 st.write("유튜브 동영상 예제")
-st.video("https://www.youtube.com/watch?v=B2iAodr0fOo")
+st.video("https://www.youtube.com/shorts/Waq_uJciw7M")
 
